@@ -57,7 +57,7 @@ const Blog = () => {
 
       <Outlet />
 
-      <p className="text-gray-400 text-lg mt-24 mx-48">
+      <p className="text-gray-400 text-lg mt-24 sm:max-w-240">
         This Blog component demonstrates the difference between React Router's
         Link and NavLink components while rendering nested blog routes. It
         defines a list of blog links and displays them in two sections — one

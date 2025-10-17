@@ -21,7 +21,7 @@ const NotFound = () => {
       >
         Go Back
       </button>
-      <p className="text-gray-400 text-lg mt-24 mx-48">
+      <p className="text-gray-400 text-lg mt-24 sm:max-w-240">
         This NotFound component acts as a fallback for any route that doesn't
         match existing paths. I use React Router's useParams hook to capture the
         unmatched portion of the URL via the special '*' parameter, and display
